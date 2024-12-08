@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fffafafa" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.viewpager2.widget.ViewPager2 android:id="@+id/materialImageViewPager" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="200.0dip" android:layout_marginBottom="16.0dip" />
+            <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/materialName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="#ff666666" android:id="@id/materialShortDescription" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="#ff666666" android:id="@id/materialDetailedDescription" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" />
+            <TextView android:textColor="@android:color/holo_blue_dark" android:id="@id/materialAddress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" />
+            <com.google.android.material.button.MaterialButton android:textColor="@android:color/white" android:layout_gravity="center" android:id="@+id/openLinkButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="Перейти" android:backgroundTint="#ff2196f3" />
+            <com.google.android.material.button.MaterialButton android:textColor="@android:color/white" android:layout_gravity="center" android:id="@+id/openMapButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="Відкрити на карті" android:backgroundTint="#ff2196f3" />
+            <com.google.android.material.button.MaterialButton android:textColor="@android:color/white" android:layout_gravity="center" android:id="@+id/favoriteButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Додати в обране" android:backgroundTint="#ff4caf50" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

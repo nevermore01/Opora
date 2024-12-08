@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="material_types">
+        <item>Веб-ресурси</item>
+        <item>Соціальні медіа</item>
+        <item>Збори</item>
+        <item>Місця</item>
+        <item>Додатки</item>
+    </string-array>
+</resources>

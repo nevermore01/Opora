@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Опора - Збірник Волонтерських Проектів"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Опора – це зручний додаток для пошуку та дізнання про різні волонтерські проекти, фонди, організації та ініціативи. Він дозволяє легко фільтрувати матеріали, знаходити інформацію про проекти, додавати їх в обране та приєднуватись до волонтерських активностей."
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Інструкція користувача"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Знаходьте волонтерські організації, фонди, та ініціативи"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/screen_find"
+            android:layout_marginBottom="24dp"
+            android:scaleType="centerInside"
+            android:elevation="4dp"
+            android:background="@drawable/image_background" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Фільтруйте матеріали за типом"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/screen_filter"
+            android:layout_marginBottom="24dp"
+            android:scaleType="centerInside"
+            android:elevation="4dp"
+            android:background="@drawable/image_background" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Дізнавайтесь більше про волонтерські проекти, переглядаючи детальну інформацію"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/screen_details"
+            android:layout_marginBottom="24dp"
+            android:scaleType="centerInside"
+            android:elevation="4dp"
+            android:background="@drawable/image_background" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Додавайте проекти в обране для зручного доступу"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/screen_favorite"
+            android:layout_marginBottom="24dp"
+            android:scaleType="centerInside"
+            android:elevation="4dp"
+            android:background="@drawable/image_background" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Долучайтесь до волонтерських проектів та допомагайте разом з іншими"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/screen_join"
+            android:layout_marginBottom="24dp"
+            android:scaleType="centerInside"
+            android:elevation="4dp"
+            android:background="@drawable/image_background" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Інструкція для адміністратора"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Натисніть на посилання 'Панель адміністратора' внизу головного екрану"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/screen_admin_link"
+            android:layout_marginBottom="24dp"
+            android:scaleType="centerInside"
+            android:elevation="4dp"
+            android:background="@drawable/image_background" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Введіть ваші дані для входу"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/screen_admin_login"
+            android:layout_marginBottom="24dp"
+            android:scaleType="centerInside"
+            android:elevation="4dp"
+            android:background="@drawable/image_background" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Додавайте нові волонтерські проекти"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/screen_admin_add"
+            android:layout_marginBottom="24dp"
+            android:scaleType="centerInside"
+            android:elevation="4dp"
+            android:background="@drawable/image_background" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Редагуйте та видаляйте існуючі матеріали"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/screen_admin_edit"
+            android:layout_marginBottom="24dp"
+            android:scaleType="centerInside"
+            android:elevation="4dp"
+            android:background="@drawable/image_background" />
+
+        <Button
+            android:id="@+id/buttonStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Почати"
+            android:backgroundTint="#4CAF50"
+            android:textColor="@android:color/white"
+            android:padding="12dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp" />
+    </LinearLayout>
+</ScrollView>

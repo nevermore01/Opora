@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "570666002440",
+    "project_id": "splitify-2c72c",
+    "storage_bucket": "splitify-2c72c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570666002440:android:a3f698029984040becc9bd",
+        "android_client_info": {
+          "package_name": "com.example.opora"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHnjH3lj9NZT1DqEo6qO_eewBr_KV_wnM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
